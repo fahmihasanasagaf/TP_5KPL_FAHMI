@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Menggunakan DataGeneric dengan tipe data String
+        DataGeneric<string> dataNIM = new DataGeneric<string>("2311104074");
+        dataNIM.PrintData();
+    }
+}
